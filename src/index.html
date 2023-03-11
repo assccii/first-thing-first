@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin Panel</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+  </head>
+  <body>
+    <main class="main">
+      <div class="main__left">
+        <h3 class="main__left-heading">Admin Panel</h3>
+        <ul class = "main__left-heading-ul">
+          <li class = "main__left-heading-ul-li"><a href = "#">Options</a></li>
+          <li class = "main__left-heading-ul-li"><a href = "#">Static Pages</a></li>
+          <li class = "main__left-heading-ul-li"><a href = "#">Posts</a></li>
+          <li class = "main__left-heading-ul-li"><a href = "#">Modules</a></li>
+          <li class = "main__left-heading-ul-li"><a href = "#">Navigation Links</a></li>
+          <li class = "main__left-heading-ul-li"><a href = "#">Mailing List</a></li>
+          <hr>
+          <li class = "main__left-heading-ul-li themes"><a href = "#">Themes</a></li>
+        </ul>
+
+        <p class = "main__left-heading-text">Logout</p>
+      </div>
+<!-- main section starts here -->
+      <div class="main__right">
+        <div class="main__right-nav">
+          <h3 class="heading">Navigation Links</h3>
+
+          <!-- create the navigation table here -->
+          <table class = "main__right-table">
+            <tr>
+              <th class = "main__right-table-heading">URL</th>
+              <th class = "main__right-table-heading">Name</th>
+              <th class = "main__right-table-heading">Edit</th>
+              <th class = "main__right-table-heading">Move</th>
+              <th class = "main__right-table-heading">Visible</th>
+              <th class = "main__right-table-heading">Delete</th>
+            </tr>
+            <tr>
+              <td class = "main__right-table-content">/</td>
+              <td class = "main__right-table-content">Home</td>
+              <td class = "main__right-table-content">Edit</td>
+              <td class = "main__right-table-content">Move</td>
+              <td class = "main__right-table-content">Visible</td>
+              <td class = "main__right-table-content">Delete</td>
+            </tr>
+            <tr>
+              <td class = "main__right-table-content">/posts</td>
+              <td class = "main__right-table-content">Home</td>
+              <td class = "main__right-table-content">Edit</td>
+              <td class = "main__right-table-content">up down</td>
+              <td class = "main__right-table-content">Visible</td>
+              <td class = "main__right-table-content">Delete</td>
+            </tr>
+            <tr>
+              <td class = "main__right-table-content">/contact</td>
+              <td class = "main__right-table-content">Contact</td>
+              <td class = "main__right-table-content">Edit</td>
+              <td class = "main__right-table-content">up</td>
+              <td class = "main__right-table-content">Visible</td>
+              <td class = "main__right-table-content">Delete</td>
+            </tr>
+          </table>
+        </div>
+
+        <div class="main__right-quick">
+          <!-- code for quick link goes here -->
+          <h3 class = "main__right-quick-heading">Quick Links</h3>
+
+          <div class="main__right-quick-item">
+            <ul>
+              <li><span><a href = "#">Link Static Page</a></span></li>
+              <li><span><a href = "#">Link Post</a></span></li>
+              <li><span><a href = "#">Link Module</a></span></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="main__right-addlink">
+          <!-- code for add links goes here -->
+          <h3>Add New Link</h3>
+          <div class="main__right-addlink-add">
+            <!-- create a box for URL -->
+            <!-- create a box for name -->
+            <!-- create an add button -->
+          </div>
+        </div>
+
+        <div class="main__right-options">
+          <!-- code for options goes here -->
+          <h3>Options</h3>
+          <label for="options"> Navigation Link Spacer</label>
+          <select name="options" id="options">
+            <option value="wide space">Wider Space</option>
+            <option value="not wide space">Not so wider space</option>
+          </select>
+
+          <p>Set the spacing between the navigation links.</p>
+          <button>Save</button>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
